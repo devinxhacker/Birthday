@@ -67,7 +67,7 @@ button{
   }
   .left{
     flex: 0;
-    color: red;
+    color: black;
   }
   .right{
     display: none;
