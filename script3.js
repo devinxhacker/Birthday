@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
             video2.style.animation = 'fadeIn 1s ease';
             card.style.display = 'inline-block';
             animatePoem();
-        }, 350000)
+        }, 380000)
         
 
     });
