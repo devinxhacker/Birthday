@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opera GX</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body id="body">
+    <div class="load-holder" id="load-holder"><div id="loader"></div></div>
+    <div class="overlay" id="overlay">
+        <div class="overlay-content" id="clicker">
+            <h2 id="protect" style="color:red">ALERT!<br>Click me 6 times for verification. </h2>
+            <button id='close' style="background-color: red;" onclick="window.close()">Close</button>
+            <button id="startMusicButton">Continue</button>
+        </div>
+    </div>
+    <div class="container" id="container" style="display: none;">
+        <video id="video" src="video.mp4" width="100%"; height="100%" style="position: fixed; top:0; left: 0; z-index: -1" preload="auto"></video>
+        <video id="video2" src="video2.mp4" width="100%"; height="100%" style="position: fixed; top:0; left: 0; z-index: 1" preload="auto"></video>
+        <div id="hbba">Happy Birthday BRO</div>
+        <div id="ba">BRO</div>
+        <div class="card">
+            <h1 class="title">Happy BirthDay BRO!</h1>
+            <p id="poem" class="poem"></p>
+        </div>
+    </div>
+    
+    <script src="script3.js"></script>
+</body>
+</html>

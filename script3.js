@@ -42,22 +42,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Poem content
     const poemLines = [
-        "Happy birthday, Baba! ",
+        "Happy birthday, Bro! ",
         "You're the best, that's true.",
-        "You're strong and kind,",
-        "And I love you.",
+        "You're comedy and funny,",
+        "And I bit you.",
         " ",
         "You make me laugh,",
-        "You help me through.",
+        "You chidaying me dhapu.",
         "I'm so lucky to have you,",
-        "Father, I love you. ",
+        "You are Fusu Fusu Fusu...😁 ",
         " ",
         "Wish you a many many happy returns of the day.",
         "May your day be filled with joy and happiness.",
         "May your dreams and aspirations come true.",
-        "May your heart be filled with love and kindness.",
+        "May your mouth stop at chidaying me.",
         " ",
-        "WISHING YOU A HAPPY BIRTHDAY TO YOU!"
+        "WISHING YOU A HAPPY BIRTHDAY TO YOU! 😁😁😁"
     ];
 
     const poemWords = poemLines.flatMap(line => line.split(' '));
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
             video2.style.animation = 'fadeIn 1s ease';
             card.style.display = 'inline-block';
             animatePoem();
-        }, 402000)
+        }, 350000)
         
 
     });
